@@ -1,4 +1,9 @@
 import sqlite3
+import os
+import sys
+
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from config import DB_PATH
 
 def create_tables():

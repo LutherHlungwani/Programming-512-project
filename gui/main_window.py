@@ -5,6 +5,7 @@ from gui.book_management import BookManagementFrame
 from gui.member_management import MemberManagementFrame
 from gui.transaction_ui import TransactionFrame
 
+
 class LibraryApp:
     def __init__(self, root):
         self.root = root
